@@ -53,6 +53,7 @@ export default function App() {
               </div>
             </div>
           </div>
+          
         </SwiperSlide>
         <SwiperSlide>
           <img src={slider3} alt="" />
