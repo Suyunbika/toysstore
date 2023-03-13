@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import arrow from '../../assets/arrow.svg';
 import CatalogItem from '../CatalogItem/CatalogItem';
+import but_search from '../../assets/search.png';
 
 import { item } from '../../data/item';
 
@@ -14,7 +15,12 @@ const Catalog = () => {
                 <img src={arrow} alt="" className="catalog-arrow" />
             </div>
             <form action="" className='search'>
-                <input type="text" className='search-input' />
+                <div className="search_container">
+                    <input type="text" className='search-input' />
+                    <div className="but_search">
+                        <img src={but_search} alt="" />
+                    </div>
+                </div>
             </form>
             <div className="catalog_inner">
                 {

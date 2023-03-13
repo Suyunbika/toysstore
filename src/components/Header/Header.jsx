@@ -1,6 +1,7 @@
 import logo from '../../assets/logo.png';
 import basket from '../../assets/basket.png'
 
+
 const Header = () => {
     return (
         <header className="header">
